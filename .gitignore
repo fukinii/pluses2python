@@ -1,0 +1,14 @@
+# Игнорировать zip файлы
+*.zip
+*/docs
+
+/build
+/.idea
+
+/cmake-build-debug/*
+/cmake-build-release/*
+
+main.cpp
+a.out
+*.swp
+test_package/build/
