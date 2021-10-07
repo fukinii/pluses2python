@@ -5,8 +5,8 @@
 /build
 /.idea
 
-/cmake-build-debug/*
-/cmake-build-release/*
+pluses/cmake-build-debug
+pluses/cmake-build-release
 
 main.cpp
 a.out
