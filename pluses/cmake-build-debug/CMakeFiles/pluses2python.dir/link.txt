@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/pluses2python.dir/src/main.cpp.o CMakeFiles/pluses2python.dir/src/Add.cpp.o -o pluses2python 
