@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/YourProjectName.dir/src/main.cpp.o CMakeFiles/YourProjectName.dir/src/Add.cpp.o -o YourProjectName 

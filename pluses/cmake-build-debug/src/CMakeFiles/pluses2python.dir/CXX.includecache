@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fukin/pluses2python/pluses/src/Add.cpp
+Add.h
+/home/fukin/pluses2python/pluses/src/Add.h
+
+/home/fukin/pluses2python/pluses/src/Add.h
+
+/home/fukin/pluses2python/pluses/src/main.cpp
+iostream
+-
+Add.h
+/home/fukin/pluses2python/pluses/src/Add.h
+

@@ -1,0 +1,3 @@
+/home/fukin/pluses2python/pluses/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fukin/pluses2python/pluses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fukin/pluses2python/pluses/cmake-build-debug/CMakeFiles/pluses2python.dir
