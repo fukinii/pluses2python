@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PlusesToPython"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\pybind11\;CMake Files\third_party\pybind11\tools\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlusesToPython">
+				<Option output="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/libPlusesToPython.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/src/.."/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/third_party"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 PlusesToPython"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlusesToPython/fast">
+				<Option output="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/libPlusesToPython.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/src/.."/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/third_party"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 PlusesToPython/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PyPlusesToPython">
+				<Option output="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/PyPlusesToPython.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMODULE_NAME=PyPlusesToPython"/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/src"/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/src/.."/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/third_party"/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/third_party/pybind11/include"/>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 PyPlusesToPython"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PyPlusesToPython/fast">
+				<Option output="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/PyPlusesToPython.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMODULE_NAME=PyPlusesToPython"/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/src"/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/src/.."/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/third_party"/>
+					<Add directory="/home/fukin/spec_train/pluses2python/pluses/third_party/pybind11/include"/>
+					<Add directory="/usr/include/python3.9"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 PyPlusesToPython/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/fukin/spec_train/pluses2python/pluses/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/src/Add.cpp">
+			<Option target="PlusesToPython"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/src/Add.h">
+			<Option target="PlusesToPython"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/src/python_binding/python_binding.cpp">
+			<Option target="PyPlusesToPython"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/third_party/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/third_party/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\pybind11\"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/third_party/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\third_party\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/third_party/pybind11/tools/pybind11Common.cmake">
+			<Option virtualFolder="CMake Files\third_party\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/third_party/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\third_party\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home/fukin/spec_train/pluses2python/pluses/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

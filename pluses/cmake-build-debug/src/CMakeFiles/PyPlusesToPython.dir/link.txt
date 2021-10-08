@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,PyPlusesToPython.so -o PyPlusesToPython.so CMakeFiles/PyPlusesToPython.dir/python_binding/python_binding.cpp.o  libPlusesToPython.a /usr/lib/x86_64-linux-gnu/libpython3.9.so 
