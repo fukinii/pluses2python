@@ -12,6 +12,8 @@ public:
     inline Object() { numOFClass_ = -1; }
 
     int numOFClass_;
+
+    [[nodiscard]] int getNumOfClass() const { return numOFClass_; }
 };
 
 #endif //PLUSESTOPYTHON_OBJECT_H

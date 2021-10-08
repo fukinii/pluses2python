@@ -10,6 +10,9 @@
 #include <pybind11/stl.h>
 
 #include "Add.h"
+#include "utils/CalcGini.h"
+#include "utils/Classes.h"
+#include "Object.h"
 
 namespace py = pybind11;
 
@@ -19,4 +22,9 @@ PYBIND11_MODULE(MODULE_NAME, m) {
     m.def("foo", &foo);
 
     m.def("add", &add, py::arg("i"), py::arg("j"));
+
+//    py::class_<Object>(m, "Object")
+//            .def(py::init<int>(), py::arg("numOFClass_"))
+//            .def_property("numOFClass_")
+//            .def("getNumOfClass", int);
 }
