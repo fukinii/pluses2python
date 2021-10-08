@@ -10,7 +10,7 @@
 
 double add(double x, double y);
 
-Eigen::Vector3d foo();
+Eigen::Vector3d foo(Eigen::Vector3d vector3D);
 
 
 #endif //PLUSES2PYTHON_ADD_H

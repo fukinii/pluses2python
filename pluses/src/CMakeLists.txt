@@ -13,7 +13,7 @@ target_include_directories(${MODULE_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/..
 if (BUILD_PYTHON)
     # Если не найти питон раньше, чем это сделает pybind11, то может произойти ошибка
     message("FIND_PYTHON")
-    find_package(Python 3.9 EXACT COMPONENTS Interpreter Development)
+    find_package(Python 3.9.5 EXACT COMPONENTS Interpreter Development)
 endif ()
 
 if (BUILD_PYTHON)
@@ -50,5 +50,9 @@ if (BUILD_PYTHON)
                 )
     endif()
     set_target_properties(${PyTarget} PROPERTIES PREFIX "")
+
+#    install(TARGETS ${PyIntegratorTarget} DESTINATION "C:\\Work\\environment_model\\src\\imitationmodelingorientationcontrol\\environmentmodel\\ballistic")
+    #install(TARGETS ${PyIntegratorTarget} DESTINATION src)
+
 
 endif()

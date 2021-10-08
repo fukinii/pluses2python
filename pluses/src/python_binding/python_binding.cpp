@@ -14,7 +14,9 @@
 namespace py = pybind11;
 
 PYBIND11_MODULE(MODULE_NAME, m) {
-  /*** Класс ошибок ***/
+    /*** Класс ошибок ***/
 
-  m.def("foo", &foo);
+    m.def("foo", &foo);
+
+    m.def("add", &add, py::arg("i"), py::arg("j"));
 }
