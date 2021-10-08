@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g -shared -Wl,-soname,PyPreciseBallistics.so -o PyPreciseBallistics.so CMakeFiles/PyPreciseBallistics.dir/python_binding/python_binding.cpp.o  -lballistics_precise /usr/lib/x86_64-linux-gnu/libpython3.7m.so 

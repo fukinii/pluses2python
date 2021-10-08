@@ -1,2 +1,0 @@
-/usr/bin/ar qc libPlusesToPython.a CMakeFiles/PlusesToPython.dir/Add.cpp.o
-/usr/bin/ranlib libPlusesToPython.a

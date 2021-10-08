@@ -1,2 +1,0 @@
-/usr/bin/ar qc libballistics_precise.a CMakeFiles/ballistics_precise.dir/Add.cpp.o CMakeFiles/ballistics_precise.dir/main.cpp.o
-/usr/bin/ranlib libballistics_precise.a
