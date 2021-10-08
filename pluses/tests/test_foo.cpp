@@ -6,6 +6,9 @@
 
 #include <gtest/gtest.h>
 
+#include <src/utils/CalcGini.h>
+#include <src/Object.h>
+
 TEST(A, B){
 
     Eigen::Vector3d a = foo(Eigen::Vector3d(10.,20.,30.));
