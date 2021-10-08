@@ -51,7 +51,4 @@ if (BUILD_PYTHON)
     endif()
     set_target_properties(${PyTarget} PROPERTIES PREFIX "")
 
-
-#    install(TARGETS ${PyTarget} DESTINATION ${PATH_TO_SAVE}/src/imitationmodelingorientationcontrol/environmentmodel/ballistic)
-    #install(TARGETS ${PyTarget} DESTINATION src)
 endif()

@@ -6,4 +6,4 @@
 
 double add(double x, double y) { return x + y; }
 
-Eigen::Vector3d foo() { return Eigen::Vector3d(); }
+Eigen::Vector3d foo() { return Eigen::Vector3d::Zero(); }
