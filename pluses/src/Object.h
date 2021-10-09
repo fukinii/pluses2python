@@ -13,6 +13,8 @@ public:
 
     int numOFClass_;
 
+//    std::vector<Feature>
+
     [[nodiscard]] int getNumOfClass() const { return numOFClass_; }
 };
 
