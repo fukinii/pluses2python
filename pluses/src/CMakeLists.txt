@@ -13,7 +13,7 @@ target_include_directories(${MODULE_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/..
 if (BUILD_PYTHON)
     # Если не найти питон раньше, чем это сделает pybind11, то может произойти ошибка
     message("FIND_PYTHON")
-    find_package(Python 3.9 EXACT COMPONENTS Interpreter Development)
+    find_package(Python 3.8 EXACT COMPONENTS Interpreter Development)
 endif ()
 
 if (BUILD_PYTHON)
@@ -35,24 +35,24 @@ if (BUILD_PYTHON)
     target_include_directories(${PyTarget} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
     target_compile_definitions(${PyTarget} PRIVATE MODULE_NAME=${PyModuleName})
 
-    if(WIN32)
+    if (WIN32)
         # python will not import dll but expects pyd
         set_target_properties(${PyTarget}
                 PROPERTIES
                 SUFFIX ".pyd"
                 )
-    endif()
-    if(APPLE)
+    endif ()
+    if (APPLE)
         # python on macos will not import dylib but expects .so
         set_target_properties(${PyTarget}
                 PROPERTIES
                 SUFFIX ".so"
                 )
-    endif()
+    endif ()
     set_target_properties(${PyTarget} PROPERTIES PREFIX "")
 
-#    install(TARGETS ${PyIntegratorTarget} DESTINATION "C:\\Work\\environment_model\\src\\imitationmodelingorientationcontrol\\environmentmodel\\ballistic")
+    #    install(TARGETS ${PyIntegratorTarget} DESTINATION "C:\\Work\\environment_model\\src\\imitationmodelingorientationcontrol\\environmentmodel\\ballistic")
     #install(TARGETS ${PyIntegratorTarget} DESTINATION src)
 
 
-endif()
+endif ()

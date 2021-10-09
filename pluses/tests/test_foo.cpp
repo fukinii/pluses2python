@@ -6,7 +6,7 @@
 
 #include <gtest/gtest.h>
 
-#include <src/utils/CalcGini.h>
+#include <src/utils/Utils.h>
 #include <src/Object.h>
 
 TEST(A, B){
